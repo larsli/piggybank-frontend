@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Family Piggybank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Family Piggybank</h1>
+
+<div class="child">
+  <h2>Child 1: <span id="balance1">0</span> NOK</h2>
+  <input id="amount1" type="number" placeholder="Amount">
+  <button onclick="deposit('child1')">Deposit</button>
+  <button onclick="withdraw('child1')">Withdraw</button>
+</div>
+
+<div class="child">
+  <h2>Child 2: <span id="balance2">0</span> NOK</h2>
+  <input id="amount2" type="number" placeholder="Amount">
+  <button onclick="deposit('child2')">Deposit</button>
+  <button onclick="withdraw('child2')">Withdraw</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
